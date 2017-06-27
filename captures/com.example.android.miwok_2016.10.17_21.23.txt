@@ -1,0 +1,54 @@
+Applications Memory Usage (kB):
+Uptime: 420498898 Realtime: 737420318
+
+** MEMINFO in pid 28387 [com.example.android.miwok] **
+                   Pss  Private  Private  Swapped     Heap     Heap     Heap
+                 Total    Dirty    Clean    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------   ------
+  Native Heap     4600     4448        0    28120    36608    34658     1949
+  Dalvik Heap     6454     6100        0      820    57168    45230    11938
+ Dalvik Other     1168      956        0    17160                           
+        Stack      244      244        0        0                           
+       Ashmem        2        0        0        0                           
+      Gfx dev      324      324        0        0                           
+    Other dev        4        0        4        0                           
+     .so mmap     1357      108      236     5528                           
+    .apk mmap      230        0       52        0                           
+    .ttf mmap      117        0       88        0                           
+    .dex mmap     3860       88     3772        0                           
+    .oat mmap     2260        0      904        0                           
+    .art mmap     1314      744       40      200                           
+   Other mmap      218        8      204        0                           
+   EGL mtrack    34048    34048        0        0                           
+    GL mtrack     6436     6436        0        0                           
+      Unknown      171      156        0      172                           
+        TOTAL    62807    53660     5300    52000    93776    79888    13887
+ 
+ App Summary
+                       Pss(KB)
+                        ------
+           Java Heap:     6884
+         Native Heap:     4448
+                Code:     5248
+               Stack:      244
+            Graphics:    40808
+       Private Other:     1328
+              System:     3847
+ 
+               TOTAL:    62807      TOTAL SWAP (KB):    52000
+ 
+ Objects
+               Views:       20         ViewRootImpl:        1
+         AppContexts:        2           Activities:        1
+              Assets:        6        AssetManagers:        3
+       Local Binders:       10        Proxy Binders:       17
+       Parcel memory:        3         Parcel count:       14
+    Death Recipients:        1      OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:        0
+ 
+ 
+ Asset Allocations
+    zip:/data/local/cust/overlay/framework/framework-res.apk:/resources.arsc: 5K
